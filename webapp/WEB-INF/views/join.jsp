@@ -53,7 +53,7 @@
 		else if(frm.email.value=='')
 			alert('이메일을 입력하세요!');
 		else {
-			frm.action='joinok.jsp';
+			frm.action='/mvc/join';
 			frm.submit();
 		}
 	}
