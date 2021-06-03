@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*login*/
+#loginfrm { width: 300px; margin: 100px auto;
+            /*border: 1px solid red;*/ }
+#loginfrm div { padding-bottom: 10px; }
+#loginfrm label { display: inline-block; width: 100px;
+                  text-align: right; font-weight: bold}
+#loginfrm input, button { padding: 5px }
+#loginfrm button { margin-left: 120px; width: 75px }
+
+/*join*/
+#joinfrm { /*border: 1px solid red;*/ width: 300px;
+        	margin: 100px auto; } /*form 가운데정렬*/
+#joinfrm div { margin-bottom: 10px; }
+#joinfrm label { display: inline-block; width: 120px;
+                 text-align: right; font-weight: bold; }
+/*후손선택자는 빈칸으로 바로 나열
+  자손선택자는 < 표시 (바로 밑요소=자손)*/
+#joinfrm input, button { padding: 5px; }
+#joinfrm input { width: 150px; }
+            
+/*myinfo*/
+#myinfo { margin: 125px auto; width: 300px;
+			/*border: 1px solid red;*/ }
+#myinfo div { padding-bottom: 5px }
+#myinfo .label { display: inline-block; width: 100px;                                text-align: right; font-weight: bold; padding-right: 7px; }
+
+/*board/list*/
+#list table { width: 75%; margin: 0 auto; border-collapse: collapse;
+        table-layout: fixed; }
+#list th, td { border: 1px solid black; text-align: center; padding: 10px }
+#list td:nth-child(2) { white-space: nowrap; overflow: hidden;                               text-overflow: ellipsis; }
+#list button { width: 100px; padding: 5px; margin-right: -10px }
+#list .newbtn { text-align: right; border: none;}
+#list .tbnav { border: none; }
+#list .cpage { font-weight: bold; color: red; font-size: 35px; }
+
+/*board/view*/
+#view { width:600px; margin: 0 auto; padding-top:50px }
+#view div { margin-bottom: 20px }
+#view div:first-child { margin-bottom: 25px }
+#view div label { font-weight: bold; display:inline-block; 
+     						  width:120px; text-align:right; }
+#view div span { border:1px solid silver; padding:5px; }
+#view .contents { display:inline-block; width:400px; height:350px;}
+#view .dragup { vertical-align:top; }
+
+/*board/write*/
+#boardfrm { width:600px; margin: 0 auto; padding-top:50px }
+#boardfrm div { margin-bottom: 10px }
+#boardfrm div label { font-weight: bold; display:inline-block; 
+					  width:120px; text-align:right; }
+#contents { display:inline-block; width:450px; height:150px }			  
+  	/* div:nth-child(3) > label {vertical-align:top;} */
+#boardfrm .dragup { vertical-align:top; }
