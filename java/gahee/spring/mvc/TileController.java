@@ -11,21 +11,6 @@ public class TileController {
 		return "index.tiles";
 	}
 	
-	@RequestMapping("/join")
-	public String join() {
-		return "join.tiles";
-	}
-	
-	@RequestMapping("/login")
-	public String login() {
-		return "login.tiles";
-	}
-	
-	@RequestMapping("/myinfo")
-	public String myinfo() {
-		return "myinfo.tiles";
-	}
-	
 	@RequestMapping("/board/list")
 	public String list() {
 		return "board/list.tiles";
