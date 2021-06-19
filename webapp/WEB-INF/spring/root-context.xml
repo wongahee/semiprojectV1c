@@ -10,7 +10,7 @@
 	<bean id="dbcpDataSource"
 		class="org.apache.commons.dbcp2.BasicDataSource"
 		p:driverClassName="org.mariadb.jdbc.Driver"
-		p:url="jdbc:mariadb://bigdata.cfss7vpoctox.ap-northeast-2.rds.amazonaws.com:3306/playground"
+		p:url="jdbc:mariadb://[아마존주소]:3306/playground"
 		p:username="playground"
 		p:password="bigdata2020" 
 		p:initialSize="10" p:maxTotal="7" p:maxIdle="3" />
